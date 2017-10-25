@@ -56,6 +56,14 @@ public class MainPresenter implements MainContract.Presenter {
 		mMainModels = new ArrayList<>();
 	}
 
+	public MainPresenter() {
+	}
+
+	public void refresh(){
+		mCommonNavigatorAdapter.notifyDataSetChanged();
+		mPagerAdapter.notifyDataSetChanged();
+	}
+
 	@Override
 	public void createAdapter() {
 		initData();
@@ -69,8 +77,8 @@ public class MainPresenter implements MainContract.Presenter {
 			public IPagerTitleView getTitleView(Context context,final int index) {
 				ClipPagerTitleView clipPagerTitleView = new ClipPagerTitleView(context);
 				clipPagerTitleView.setText(mMainModels.get(index).getTitle());
-				clipPagerTitleView.setTextColor(Color.parseColor("#f2c4c4"));
-				clipPagerTitleView.setClipColor(Color.GREEN);
+				clipPagerTitleView.setTextColor(Color.GRAY);
+				clipPagerTitleView.setClipColor(Color.WHITE);
 
 				clipPagerTitleView.setOnClickListener(new View.OnClickListener() {
 					@Override

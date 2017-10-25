@@ -104,12 +104,12 @@
         "source": "/Users/ttb/.android/build-cache/70a09ddbec9617959a2756c2d17422ad4250859c/output/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/ttb/AndroidStudioProjects/Joker/magicindicator/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png",
-        "source": "/Users/ttb/.android/build-cache/70a09ddbec9617959a2756c2d17422ad4250859c/output/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/ttb/AndroidStudioProjects/Joker/magicindicator/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
         "source": "/Users/ttb/.android/build-cache/70a09ddbec9617959a2756c2d17422ad4250859c/output/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/ttb/AndroidStudioProjects/Joker/magicindicator/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/ttb/.android/build-cache/70a09ddbec9617959a2756c2d17422ad4250859c/output/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/Users/ttb/AndroidStudioProjects/Joker/magicindicator/build/intermediates/res/merged/release/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",

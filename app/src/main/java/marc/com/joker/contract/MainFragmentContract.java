@@ -19,6 +19,6 @@ public interface MainFragmentContract {
 	}
 
 	interface Presenter {
-		void createAdapter();
+		void createAdapter(String url);
 	}
 }

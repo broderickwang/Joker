@@ -61,12 +61,13 @@ public class MainPageFragment extends Fragment implements MainFragmentContract.V
 	public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.main_fragment,container,false);
 		ViewStub viewStub = v.findViewById(R.id.viewStub);
+		Log.d("TAG", "onCreateView: "+mLayoutRes);
 		viewStub.setLayoutResource(mLayoutRes);
 		viewStub.inflate();
-		mRecyclerView = viewStub.findViewById(R.id.content_list);
+		mRecyclerView = v.findViewById(R.id.content_list);
 		mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext().getApplicationContext()));
 
-		mPresenter.createAdapter();
+		mPresenter.createAdapter(mUrl);
 
 		return v;
 	}

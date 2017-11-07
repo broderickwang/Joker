@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$/baselibrary" />
             <option value="$PROJECT_DIR$/commlibrary" />
             <option value="$PROJECT_DIR$/magicindicator" />
+            <option value="$PROJECT_DIR$/reader" />
+            <option value="$PROJECT_DIR$/router" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

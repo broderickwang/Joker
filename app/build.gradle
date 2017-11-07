@@ -30,6 +30,9 @@ dependencies {
     compile project(':commlibrary')
     compile 'com.android.support:design:26.0.0-alpha1'
     compile 'marc.com:multrecycleadapter:2.3'
+    //    compile 'cn.jzvd:jiaozivideoplayer:6.1.0_preview'
     compile 'com.github.bumptech.glide:glide:4.2.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.2.0'
+    //    annotationProcessor 'com.github.bumptech.glide:compiler:4.2.0'
+    compile 'com.shuyu:GSYVideoPlayer:2.1.0'
+    compile project(':router')
 }

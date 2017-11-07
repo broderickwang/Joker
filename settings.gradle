@@ -1,1 +1,1 @@
-include ':app', ':baselibrary', ':commlibrary', ':magicindicator'
+include ':app', ':baselibrary', ':commlibrary', ':magicindicator', ':reader', ':router'
